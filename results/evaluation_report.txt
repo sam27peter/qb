@@ -1,0 +1,26 @@
+MLP + SGD TEST EVALUATION
+============================================================
+
+Test samples: 256
+PCA features: 141
+
+Accuracy          : 0.957031
+Precision         : 0.977099
+Recall            : 0.941176
+F1 Score          : 0.958801
+ROC-AUC           : 0.995343
+Average Precision : 0.996121
+
+CONFUSION MATRIX
+[[117   3]
+ [  8 128]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+   Road Sign     0.9360    0.9750    0.9551       120
+  Pedestrian     0.9771    0.9412    0.9588       136
+
+    accuracy                         0.9570       256
+   macro avg     0.9565    0.9581    0.9570       256
+weighted avg     0.9578    0.9570    0.9571       256

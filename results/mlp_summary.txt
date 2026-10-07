@@ -1,0 +1,11 @@
+MLP + SGD TRAINING SUMMARY
+=======================================================
+Training samples: 1024
+PCA features: 141
+Cross-validation folds: 5
+Best hidden layers: (128, 64)
+Best learning rate: 0.01
+Best momentum: 0.95
+Best CV F1: 0.917682
+Training iterations: 36
+Final training loss: 0.005322

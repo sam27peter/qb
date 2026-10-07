@@ -1,0 +1,11 @@
+PCA SUMMARY
+==================================================
+Original features: 16384
+85% variance: 40 components
+90% variance: 73 components
+95% variance: 141 components
+Selected components: 141
+Final explained variance: 0.950037
+Feature reduction: 99.14%
+X_train PCA shape: (1024, 141)
+X_test PCA shape: (256, 141)
