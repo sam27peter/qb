@@ -244,15 +244,15 @@ Class prediction and confidence
 
 Testing was performed using 13 unseen external images:
 
-- 7 Road Sign images
-- 6 Pedestrian images
+- 8 Road Sign images
+- 5 Pedestrian images
 
 | Result | Value |
 |---|---:|
 | Correct predictions | 11 / 13 |
 | External manual-test accuracy | **84.62%** |
-| Pedestrian | 6 / 6 correct = **100%** |
-| Road Sign | 6 / 7 correct = **85.71%** |
+| Pedestrian | 5 / 5 correct = **100%** |
+| Road Sign | 6 / 8 correct = **75%** |
 
 These images came from outside the original prepared dataset, so this result must not be mixed with the official held-out test-set result. The external images include different backgrounds, sign sizes, image styles, and real-world scenes, making this an additional generalization test.
 
